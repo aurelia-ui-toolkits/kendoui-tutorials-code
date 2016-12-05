@@ -17,6 +17,8 @@
     
     <!-- Kendo-SDK files -->
     <script src="kendo-sdk/js/jquery.min.js"></script>
+    <!-- Expose jQuery on the window object (https://github.com/electron/electron/issues/254#issuecomment-183498783) -->
+    <script>window.jQuery = window.$ = typeof module === 'object' ? module.exports : jQuery</script>
     <script src="kendo-sdk/js/jszip.min.js"></script>
     <script src="kendo-sdk/js/kendo.all.min.js"></script>
 
