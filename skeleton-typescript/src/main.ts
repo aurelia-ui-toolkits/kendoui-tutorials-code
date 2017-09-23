@@ -7,7 +7,5 @@ export function configure(aurelia: Aurelia) {
     .developmentLogging()
     .plugin('aurelia-kendoui-bridge');
 
-
-
   aurelia.start().then(() => aurelia.setRoot());
 }
