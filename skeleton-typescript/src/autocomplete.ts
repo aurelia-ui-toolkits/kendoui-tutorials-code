@@ -1,7 +1,6 @@
 import 'kendo-ui/js/kendo.autocomplete';
 
-// tslint:disable-next-line:class-name
-export class autocomplete {
+export class Autocomplete {
   public datasource: any;
 
   constructor() {
